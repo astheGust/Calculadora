@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Calculadora</title>
+        <link rel="stylesheet" type="text/css" href="arquivo.css">
+        <script src="arquivo.js"></script>
+
+    <body>
+        <article id="calculadora">
+            <div id="caixavisor">
+                <div id="visor">
+                    <p id="visorsuperior"></p>
+                    <p id="visorinferior"></p>
+                </div>
+            </div>
+            <div id="meio">
+                <div class="botoes">
+                    <div onclick="adicionarNumero(7)" class="botao">7</div>
+                    <div onclick="adicionarNumero(8)" class="botao">8</div>
+                    <div onclick="adicionarNumero(9)" class="botao">9</div>
+                    <div onclick="adicionarOperador('/')" class="botao">/</div>
+                </div>
+                <div class="botoes">
+                    <div onclick="adicionarNumero(4)" class="botao">4</div>
+                    <div onclick="adicionarNumero(5)" class="botao">5</div>
+                    <div onclick="adicionarNumero(6)" class="botao">6</div>
+                    <div onclick="adicionarOperador('*')" class="botao">x</div>
+                </div>
+                <div class="botoes">
+                    <div onclick="adicionarNumero(1)" class="botao">1</div>
+                    <div onclick="adicionarNumero(2)" class="botao">2</div>
+                    <div onclick="adicionarNumero(3)" class="botao">3</div>
+                    <div onclick="adicionarOperador('-')" class="botao">-</div>
+                </div>
+                <div class="botoes">
+                    <div onclick="adicionarNumero(0)" class="botao">0</div>
+                    <div onclick="adicionarNumero('.')" class="botao">.</div>
+                    <div onclick="calcular()" class="botao">=</div>
+                    <div onclick="adicionarOperador('+')" class="botao">+</div>
+                </div>
+
+            </div>
+        </article>
+    </body>
+</html>
